@@ -1,11 +1,13 @@
-import Hero from "./components/hero";
+import Hero from './components/hero';
+import About from './components/About';
 
 const App = () => {
   return (
-    <main className="relative min-h-screen w-screen overflow-hidden">
+    <main className='relative min-h-screen w-screen overflow-hidden'>
       <Hero />
-
+      <About />
     </main>
+
   )
 }
 
